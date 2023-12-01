@@ -1,0 +1,51 @@
+/*------------------------------------------------General-------------------------------------------------------*/
+
+/* Color pallete*/
+#E4F9F5
+#30E3CA
+#11999E
+#40514E
+/* Color pallete*/
+
+h2 {
+  font-family: Nunito, Arial;
+}
+
+p {
+  font-family: PT Sans, Arial;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------------------------------------------------Main Content-------------------------------------------------------*/
+.main-content {
+  display: flex;
+  overflow: hidden;
+  border-radius: 2rem;
+  width: 50rem;
+  height: 35rem;
+  margin: 2rem;
+}
+
+/*------------------------------------------------Left Content-------------------------------------------------------*/
+
+.left-content {
+  background-color: #E4F9F5;
+  flex: 1.5;
+  padding: 1.5rem 1.5rem;
+}
+
+.logo {
+  width: 4rem;
+}
+
+/*------------------------------------------------Right Content-------------------------------------------------------*/
+
+.right-content {
+  background-color: #30E3CA;
+  flex: 1;
+}
