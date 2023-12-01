@@ -49,3 +49,7 @@ body {
   background-color: #30E3CA;
   flex: 1;
 }
+
+.standing-person {
+  height: 20rem;
+}
