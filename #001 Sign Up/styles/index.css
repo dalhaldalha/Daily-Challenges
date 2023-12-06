@@ -43,13 +43,34 @@ body {
   width: 4rem;
 }
 
+.icons-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0rem;
+  width: 8rem;
+}
+
+.icons {
+  width: 2rem;
+}
+
 /*------------------------------------------------Right Content-------------------------------------------------------*/
 
 .right-content {
+  position: relative;
   background-color: #30E3CA;
   flex: 1;
 }
 
-.standing-person {
-  height: 20rem;
+.standing-guy {
+  position: absolute;
+  width: 50rem;
+  left: -1rem;
 }
