@@ -61,6 +61,20 @@ body {
   width: 2rem;
 }
 
+.form-div {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0rem 0rem;
+}
+
+.left-form,
+.right-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+}
+
 /*------------------------------------------------Right Content-------------------------------------------------------*/
 
 .right-content {
