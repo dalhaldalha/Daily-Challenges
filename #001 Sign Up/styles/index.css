@@ -21,6 +21,9 @@ body {
   align-items: center;
 }
 
+button {
+  font-family: PT Sans, Arial;
+}
 /*------------------------------------------------Main Content-------------------------------------------------------*/
 .main-content {
   display: flex;
@@ -37,6 +40,7 @@ body {
   background-color: #E4F9F5;
   flex: 1.5;
   padding: 1.5rem 1.5rem;
+  align-items: center;
 }
 
 .logo {
@@ -75,6 +79,15 @@ body {
   gap: 1rem;
 }
 
+.signup-btn {
+  background-color: #30E3CA;
+  color: white;
+  font-weight: 800;
+  border: none;
+  margin: 1rem 6rem 1rem;
+  padding: 0.5rem 6rem 0.5rem;
+  
+}
 /*------------------------------------------------Right Content-------------------------------------------------------*/
 
 .right-content {
