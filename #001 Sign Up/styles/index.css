@@ -8,22 +8,26 @@
 /* Color pallete*/
 
 h2 {
-  font-family: Nunito, Arial;
-}
-
-p {
-  font-family: PT Sans, Arial;
+  font-family: Arial;
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Arial;
 }
 
-button {
-  font-family: PT Sans, Arial;
+input {
+  border: none;
+  border-radius: 0.5rem;
 }
+
+p {
+  font-family: Arial;
+  font-size: 1rem;
+}
+
 /*------------------------------------------------Main Content-------------------------------------------------------*/
 .main-content {
   display: flex;
@@ -49,7 +53,7 @@ button {
 
 .icons-div {
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
 }
 
 .icon-container {
@@ -79,14 +83,37 @@ button {
   gap: 1rem;
 }
 
+.right-form,
+.left-form {
+  gap: 3rem;
+}
+
 .signup-btn {
   background-color: #30E3CA;
   color: white;
-  font-weight: 800;
+  font-weight: 600;
+  font-family: Arial;
   border: none;
-  margin: 1rem 6rem 1rem;
+  margin: 0rem 6rem 0rem;
   padding: 0.5rem 6rem 0.5rem;
-  
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.signup-btn:hover {
+  scale: 1.05;
+}
+
+.signup-btn:active {
+  background-color: #2ea595;
+}
+
+.signup-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 1rem;
 }
 /*------------------------------------------------Right Content-------------------------------------------------------*/
 
@@ -98,6 +125,8 @@ button {
 
 .standing-guy {
   position: absolute;
-  width: 50rem;
+  margin: 4rem 0rem 0rem;
+  bottom: 7rem;
   left: -1rem;
+  scale: 1.7;
 }
